@@ -1,4 +1,4 @@
-package main
+package types
 
 import "fmt"
 
@@ -15,9 +15,9 @@ func main() {
 	fmt.Println("Hello " + "World ")//Hello World
 
 	//Booleans
-	fmt.Println(true && true)
+	//fmt.Println(true && true)
 	fmt.Println(true && false)
-	fmt.Println(true || true)
+	//fmt.Println(true || true)
 	fmt.Println(true || false)
 	fmt.Println(!true)
 }
