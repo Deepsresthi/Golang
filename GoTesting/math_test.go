@@ -41,7 +41,7 @@ func BenchmarkAdd(b *testing.B) {
 	for i:=0; i<b.N; i++{
 		Add(4, 6)
 	}
-} // for benchmark purposes~
+}
 
 func ExampleAdd() {
 	fmt.Println(Add(4,6))
